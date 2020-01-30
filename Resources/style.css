@@ -1,0 +1,80 @@
+*            {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body         {
+    margin-top: 8vh;
+    position: relative;
+    overflow-x: hidden;
+}
+header{
+    margin-top: 8vh;
+}
+#hero     {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg);
+    background-attachment:scroll;
+    background-position: bottom;
+    background-size: cover;
+}
+.content   {
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.sec     {
+    background: #f5f5f5;
+}
+.contact     {
+    background-image: url(../img/coding-computer-data-depth-of-field-577585.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+}
+form     {
+    color: aliceblue;
+    width: 80%;
+    margin: auto;
+}
+/* //////////////////////////////           Progress Bars ///////////////////////////*/
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+.progress-bar {
+	position: relative;
+	width: 95%;
+	height: 3em;
+	background-color: #fff;
+	border-radius: 1.5em;
+	color: white;
+    margin-bottom: 15px;
+}
+
+.progress-bar::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: .5em;
+	top: .5em;
+	bottom: .5em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 2rem;
+	max-width: calc(100% - 1em);
+	background-color: #333;
+	border-radius: 1em;
+	padding: 1em;
+}
+
+
+footer     {
+    background: #333;
+    color: #fff;
+}
+.fa:hover{
+    color: blue;
+}
